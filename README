@@ -1,0 +1,34 @@
+PyDSnap 0.3
+
+               .-.
+              ((`-'       <-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^->
+               \\         <                                 >
+                \\        |          PyDSnap 2010           |
+         .="""=._))       <                                 >
+        ;  '=. "'"        <-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v-v->
+         '=="
+
+Captures stock price snapshot of the Dhaka & Chittagong Stock Exchanges and 
+generates CSV output in the standard OHLC format
+
+(Compatible with AmiBroker, Meta Stock, Trade Station, Ninja Trader & other 
+technical analysis tools)
+
+Portions Coyright 2010 M Nasimul Haque <nasim.haque--AT--gmail.com>
+Portions Coyright 2010 Dr. Masroor Ehsan Choudhury <masroore--AT--gmail.com>
+
+Usage:
+	./dsnap.py [options]
+	
+Options:
+  -h, --help            show this help message and exit
+  -e, --header          append a header line to the CSV file (default: off)
+  -d, --dse             capture DSE snapshot (default: on)
+  -c, --cse             capture CSE snapshot (default: off)
+  -f FILE, --file=FILE  save CSV data to FILE
+  -v, --verbose         log status information on the screen (default: on)
+  -q, --quiet
+  -p, --print           print captured data on screen (default: off)
+  -n, --dont-prune      do not filter out non-trading companies (default: off)
+  -r OPT_REPEAT_INTERVAL, --repeat=OPT_REPEAT_INTERVAL
+                        set the repeat interval (default: 1 minute)
