@@ -4,7 +4,7 @@
 #       dsnap.py
 #
 #  Portions Copyright (c) 2010, M Nasimul Haque
-#  Portions Copyright (c) 2010 invarBrass
+#  Portions Copyright (c) 2010 Masroor Ehsan
 #  All rights reserved.
 #
 #  Redistribution and use in source and binary forms, with or without
